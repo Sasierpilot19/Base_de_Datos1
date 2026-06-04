@@ -62,7 +62,7 @@ v-sqlserverG1:/var/opt/mssql/data e07b9
 
 | Comando   |Descripcion|
 |-----------|-----------|
-| :---      | :---      |
+|           |           |
 | **docker --version**    | _Muestra la version del docker_ |
 | **docker pull nombre_imagen**   | _Descargar un imagen de Docker hub_ [Docker Hub](https://hub.docker.com/)|
 | **docker images**   | _Muestra todas las imagenes_|
@@ -80,4 +80,3 @@ v-sqlserverG1:/var/opt/mssql/data e07b9
 | **docker volume ls**|_Muestra los volumenes que estan en ejecucion_|
 | **docker volume create nombre-volumen**|_Crea un nuevo volumen_|
 | **docker volume rm nombre-volumen**|_Borra un volumen_|
-docker pull mcr.microsoft.com/mssql/server:2022-latest
