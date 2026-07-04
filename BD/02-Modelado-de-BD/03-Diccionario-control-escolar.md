@@ -7,7 +7,7 @@
 | Proyecto    | Control Escolar    |
 | Version    |  1.0 |
 | Fecha   | Junio 2026    |
-| Elaboro    | Ing. Jose Luis Herrera Gallardo    |
+| Elaboro    | Alumno Angel Raziel Orozco Peña   |
 | SGDB   |  SQL Server |
 
 2. Descripcion del Sistema de base de datos 
@@ -118,5 +118,3 @@ Almacena informacion de los estudiantes
 | IN_05     | La calificacion puede estar entre 0.0 y 10.0   |
 
 9. Diagrama relacional
-
-![alt text](../../img/Ejercicio55.drawio.png)

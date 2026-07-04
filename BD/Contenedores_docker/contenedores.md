@@ -5,8 +5,7 @@
 > Comandos para cada imagen 
 
 - Comando para descargar imagen de postgres 
-![ImagenDocker](./img/Docker-Embleme.jpg)
-
+![Imagen postgres](../img/Docker-Embleme.jpg)
 ```docker
 docker pull postgres:14.22-trixie
 ```

@@ -25,7 +25,7 @@ En un hospital se registra informacion de sus pacientes
 
 ## Resultado Modelo E-R
 ### Hospital
-![alt text](../../img/Ejercicio1.drawio.png)
+![alt text](../../img/e-r/Ejercicio1.drawio.png)
 
 ```
 Ejercicio 2. 
@@ -65,7 +65,7 @@ Se debe realizar lo siguiente:
 
 ## Resultado Modelo E-R
 ### Universidad
-![alt text](../../img/Ejercicio2.drawio.png)
+![alt text](../../img/e-r/Ejercicio2.drawio.png)
 ```
 Ejercicio 3.
 ```
@@ -97,7 +97,7 @@ calificacion final
 ## Resultado Modelo E-R
 
 ### Escuela
-![alt text](../../img/Ejercicio3.drawio.png)
+![alt text](../../img/e-r/Ejercicio3.drawio.png)
 
 ```
 Ejercicio 4.
@@ -136,14 +136,15 @@ Una empresa encargada de realizar venta de productos:
 ## Resultado Modelo E-R
 ### Empresa 
 
-![alt text](../../img/Ejercico4-1.drawio.png)
+![alt text](../../img/e-r/Ejercico4-1.drawio.png)
 -------
-![alt text](../../img/Ejercicio4-2.drawio.png)
+![alt text](../../img/e-r/Ejercicio4-2.drawio.png)
 
 ```
 Ejercicio 5
 ```
 
 ## Modelo E-R
+### Company
 
-![alt text](../../img/Ejercicio5.drawio.png)
+![alt text](../../img/e-r/Ejercicio5.drawio.png)
