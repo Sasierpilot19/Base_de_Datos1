@@ -405,3 +405,52 @@ WHERE proveedor_id = 3;
 
 -- TODO : Realizar ejercicio completo de construccion de una diagrama Relacional,
 --aplicando las restricciones y se continua con ALTER y DROP
+
+-- ALTER TABLE
+
+use pruebaatributos;
+
+SELECT *
+FROM alumno;
+
+TRUNCATE TABLE alumno;
+
+--Muestra los datos de una tabla
+SELECT *
+	COLUMN_NAME,
+	DATA_TYPE,
+	CARACTER_MAXIMUM_LENGHT,
+	IS_UNULLABLE
+FROM INFORMATION_SCHEMA
+
+-- Agregar una columna 
+ALTER TABLE alumno
+ADD telfono VARCHAR(20) NOT NULL;
+GO
+
+-- Agregar mas de una columna 
+ALTER TABLE alumno
+ADD 
+curp VARCHAR(18),
+matricula VARCHAR(13) NOT NULL;
+GO
+
+--Modificar un tipo de dato
+ALTER TABLE alumno
+ALTER COLUMN telefono VARCHAR(30);
+GO
+
+-- AGREGAR RESTRICCIONES 
+-- PRIMARY KEY
+
+SELECT TOP 0 *
+INTO alumno2
+FROM alumno; 
+
+SELECT
+	o.name AS nombre_restriccion,
+	o.type_desc AS tipo_restriccion
+FROM sys.objects AS O
+WHERE o.parent_object_id = OBJECT_ID('alumno2')
+AND o.type IN ('PK','F','UQ','C','D')
+ORDER BY o.type_desc;
