@@ -100,3 +100,14 @@ Con snake_case se evitan problemas de mayusculas y se hacen las consultas mas le
 - uq_cliente_correo_electronico
 - ck_producto_precio
 - df_cliente_actvio
+
+## ALTER TABLE
+
+Permite modificar una tabla existente
+
+- Agregar columnas
+- Eliminar columnas 
+- modificar columnas 
+- agregar restricciones 
+- eliminar restricciones
+

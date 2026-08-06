@@ -129,3 +129,5 @@ CREATE TABLE detalle_pedido(
 GO
 ```
 ## Diagrama final
+
+![comercializadora](../../../img/construccion/)
