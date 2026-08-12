@@ -130,4 +130,4 @@ GO
 ```
 ## Diagrama final
 
-![comercializadora](../../../img/construccion/)
+![alt text](../../../img/construccion/Diagrama_08.png)
